@@ -1,0 +1,44 @@
+/* Mobile first */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.card {
+    background-color: lightcoral;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+img {
+    border-bottom: 6px solid #00e130;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+
+/* écran */
+@media screen and (min-width: 376px) {
+    h1{
+        color: blue;
+        font-size: 3rem;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
+    .cards {
+        display: flex;
+        justify-content: space-between;/*justify-content: alignement horizontale */
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
