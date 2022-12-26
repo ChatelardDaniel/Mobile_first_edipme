@@ -10,16 +10,21 @@
 <body>
     <h1>Me contacter</h1>
     <!-- L'attribut netlify, permet de recevoir les infos du formulaire par email -->
-    <form method="POST" name="contactForm" netlify>
+    <form method="POST" name="contactForm" netlify data-netlify-recaptcha="true" data-netlify="true">
         <div>
             <label for="lastname">Votre nom:</label><br>
             <input type="text" name="nom" id="lastname" placeholder="Tapez votre nom ici." class="input__width" required>
         </div>
 
         <div>
+            <label for="email">Votre email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Tapez votre email ici." class="input__width" required>
+        </div>
+
+        <!-- <div>
             <label for="password">Votre mot de passe:</label><br>
             <input type="password" name="motdepasse" id="password" placeholder="Tapez votre mot de passe ici" class="input__width" minlength="8" required>
-        </div>
+        </div> -->
 
         <div>
             <input type="checkbox" name="" id="privacypolicy" required>
@@ -39,6 +44,8 @@
                 <option value="opel">Opel</option>
             </select>
         </div>
+        <!-- Ajout du recaptcha -->
+        <div data-netlify-recaptcha="true"></div>
 
         <div>
             <input type="submit" value="Envoyer">
