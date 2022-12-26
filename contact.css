@@ -1,0 +1,11 @@
+.input__width {
+    width: 50%;
+}
+
+textarea {
+    resize: none;
+}
+
+div {
+    margin: 10px;
+}
