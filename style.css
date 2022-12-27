@@ -100,4 +100,9 @@ h1 {
 .section__aside {
   justify-content: end; }
 
+.section__article > h1 {
+  font-size: 1.5rem;
+  color: blue;
+  text-align: center; }
+
 /* FIN COMPONENTS */
