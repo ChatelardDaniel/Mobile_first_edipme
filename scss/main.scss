@@ -6,12 +6,12 @@ Regrouper le contenu des autres fichiers scss
 /* Pas besoin de préciser .scss, il le sait */
 
 /* BASE */
-@import 'base';
+@import 'base.scss';
 /* FIN BASE */
 
 /* LAYOUT */
-@import 'layout/header';
-@import 'layout/footer';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
 /* FIN LAYOUT */
 
 /* PAGES */
@@ -21,4 +21,5 @@ Regrouper le contenu des autres fichiers scss
 /* COMPONENTS */
 @import 'components/card.scss';
 @import 'components/grid.scss';
+@import 'components/imgMobile.scss';
 /* FIN COMPONENTS */
