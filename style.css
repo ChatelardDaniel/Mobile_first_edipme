@@ -87,8 +87,17 @@ h1 {
   .card {
     width: 370px; } }
 
-.img {
-  width: 20%;
-  height: 20%; }
+.aside__img {
+  border-bottom: 2px solid #00e130;
+  border-radius: 5px 5px 0 0;
+  width: 70%;
+  object-fit: cover; }
+
+.section__cards {
+  display: grid;
+  grid-template-columns: 4fr 1fr; }
+
+.section__aside {
+  justify-content: end; }
 
 /* FIN COMPONENTS */
