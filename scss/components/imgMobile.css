@@ -1,3 +1,7 @@
-.img {
-  width: 50px;
+.aside__img {
+  border-bottom: 2px solid #00e130;
+  border-radius: 5px 5px 0 0;
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=imgMobile.css.map */

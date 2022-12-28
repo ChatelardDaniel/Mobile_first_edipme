@@ -7,8 +7,12 @@
     justify-content: end;
 }
 
+.section__article {
+    background-image: url(/img/ciel-bleu-01.jpg);
+}
+
 .section__article>h1 {
     font-size: 1.2rem;
-    color: blue;
+    color: white;
     text-align: center;
 }
