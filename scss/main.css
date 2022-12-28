@@ -103,4 +103,31 @@ h1 {
     width: 370px;
   }
 }
-@i;/*# sourceMappingURL=main.css.map */
+.aside__img {
+  border-bottom: 2px solid #00e130;
+  border-radius: 5px 5px 0 0;
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section__cards {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.section__aside {
+  justify-content: end;
+}
+
+.section__article {
+  background-color: lightblue;
+}
+
+.section__article > h1 {
+  font-size: 1.2rem;
+  color: blue;
+  text-align: center;
+}
+
+/* FIN COMPONENTS *//*# sourceMappingURL=main.css.map */
