@@ -9,7 +9,7 @@ Regrouper le contenu des autres fichiers scss
 * {
   box-sizing: border-box; }
 
-/* section */
+/* section accueil */
 .section__card {
   display: grid;
   grid-template-columns: 5fr 1fr;
@@ -17,9 +17,6 @@ Regrouper le contenu des autres fichiers scss
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   margin: 10px; }
-
-.section__article {
-  width: 100%; }
 
 h1 {
   font-size: 1.2rem;
@@ -32,6 +29,7 @@ h1 {
   width: 100%;
   object-fit: cover; }
 
+/* fin section accueil */
 /* FIN BASE */
 /* LAYOUT */
 .header {
