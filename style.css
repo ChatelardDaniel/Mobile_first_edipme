@@ -79,6 +79,7 @@ h1 {
   .cards {
     display: flex;
     justify-content: space-around;
-    /*justify-content: alignement horizontale */ } }
+    /*justify-content: alignement horizontale */
+    flex-wrap: wrap; } }
 
 /* FIN COMPONENTS */
