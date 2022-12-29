@@ -6,9 +6,31 @@ Regrouper le contenu des autres fichiers scss
 /* Pas besoin de préciser .scss, il le sait */
 /* BASE */
 /* Mobile first */
+* {
+  box-sizing: border-box; }
+
+/* section */
+.section__card {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  background-image: url(/img/ciel-bleu-01.jpg);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  margin: 10px; }
+
+.section__article {
+  width: 100%; }
+
 h1 {
-  color: red;
+  font-size: 1.2rem;
+  color: white;
   text-align: center; }
+
+.aside__img {
+  border-bottom: 2px solid #00e130;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  object-fit: cover; }
 
 /* FIN BASE */
 /* LAYOUT */
@@ -62,50 +84,5 @@ h1 {
     justify-content: space-between;
     /*justify-content: alignement horizontale */
     flex-wrap: wrap; } }
-
-/* écran */
-@media screen and (min-width: 824px) {
-  h1 {
-    color: blue;
-    font-size: 3rem;
-    text-align: center;
-    word-wrap: break-word; } }
-
-@media screen and (min-width: 782px) {
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 15px; } }
-
-@media screen and (min-width: 1204px) {
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 30px; }
-  .card {
-    width: 370px; } }
-
-.aside__img {
-  border-bottom: 2px solid #00e130;
-  border-radius: 5px 5px 0 0;
-  width: 70%;
-  object-fit: cover; }
-
-.section__cards {
-  display: grid;
-  grid-template-columns: 4fr 1fr; }
-
-.section__aside {
-  justify-content: end; }
-
-.section__article {
-  background-image: url(/img/ciel-bleu-01.jpg); }
-
-.section__article > h1 {
-  font-size: 1.2rem;
-  color: white;
-  text-align: center; }
 
 /* FIN COMPONENTS */

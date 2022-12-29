@@ -1,5 +1,31 @@
 /* Mobile first */
+* {
+    box-sizing: border-box;
+}
+/* section */
+.section__card {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-image: url(/img/ciel-bleu-01.jpg);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.section__article {
+    width: 100%;
+    
+}
+
 h1 {
-    color: red;
+    font-size: 1.2rem;
+    color: white;
     text-align: center;
+}
+
+.aside__img {
+    border-bottom: 2px solid #00e130;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    object-fit: cover;
 }

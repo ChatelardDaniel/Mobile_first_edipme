@@ -1,18 +1,2 @@
-.section__cards {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-}
 
-.section__aside {
-    justify-content: end;
-}
 
-.section__article {
-    background-image: url(/img/ciel-bleu-01.jpg);
-}
-
-.section__article>h1 {
-    font-size: 1.2rem;
-    color: white;
-    text-align: center;
-}
