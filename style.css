@@ -74,7 +74,7 @@ h1 {
   line-height: 1.5rem;
   margin: 0; }
 
-@media screen and (min-width: 741px) {
+@media screen and (min-width: 750px) {
   /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
   .cards {
     display: flex;
