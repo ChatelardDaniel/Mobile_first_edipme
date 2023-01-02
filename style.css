@@ -54,8 +54,9 @@ h1 {
   margin: 10px; }
 
 .card__img {
+  width: 150%;
+  padding: 25px 25px 0 25px;
   border-radius: 5px 5px 0 0;
-  width: 100%;
   object-fit: cover; }
 
 .card__content {
