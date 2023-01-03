@@ -46,19 +46,21 @@ h1 {
 
 /* card */
 .card {
-    background-color: lightcoral;
+    width: 374px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
     margin: 10px;
 }
 
 .card__img {
+    height: 210px;
     border-radius: 5px 5px 0 0;
     object-fit: cover;
 }
 
 .card__content {
     padding: 12px 28px;
+    background-color: lightcoral;
 }
 
 .card__title {
