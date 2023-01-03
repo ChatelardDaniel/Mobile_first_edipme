@@ -7,8 +7,6 @@
 }
 
 .card__img {
-    width: 150%;
-    padding: 25px 25px 0 25px;
     border-radius: 5px 5px 0 0;
     object-fit: cover;
 }
@@ -33,12 +31,12 @@
 }
 
 
-// @media screen and(min-width: 540px) {
-//     /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
-//         .cards {
-//             display: flex;
-//             justify-content: space-around;
-//             /*justify-content: alignement horizontale */
-//             flex-wrap: wrap;
-//         }
-// }
+@media screen and(min-width: 540px) {
+    /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            /*justify-content: alignement horizontale */
+            flex-wrap: wrap;
+        }
+}

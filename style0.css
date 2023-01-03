@@ -1,0 +1,88 @@
+
+/* Mobile first */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* section accueil */
+.section__card {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    background-image: url(/img/ciel-bleu-01.jpg);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.aside__img {
+    border-bottom: 2px solid #00e130;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* fin section accueil */
+
+.header {
+    background-color: red;
+}
+
+.footer {
+    margin-top: 64px;
+    background-color: #f8f8f8;
+    padding: 32px;
+}
+
+.footer__copyright {
+    background-color: blue;
+}
+
+/* card */
+.card {
+    background-color: lightcoral;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card__img {
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+
+.card__content {
+    padding: 12px 28px;
+}
+
+.card__title {
+    color: #333;
+}
+
+.card__meta {
+    font-size: 0.75rem;
+    margin: 10px 0;
+}
+
+.card__description {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 540px) {
+
+    /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        /*justify-content: alignement horizontale */
+        flex-wrap: wrap;
+    }
+}
