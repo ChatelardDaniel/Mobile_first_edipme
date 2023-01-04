@@ -55,12 +55,14 @@ h1 {
 }
 
 .card__content {
+    height: 40%;
     padding: 12px 28px;
     background-color: lightcoral;
 }
 
 .card__title {
     color: #333;
+    font-size: 1.5rem;
 }
 
 .card__meta {
