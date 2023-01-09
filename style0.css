@@ -22,7 +22,6 @@ h1 {
 }
 
 .aside__img {
-    border-bottom: 2px solid #00e130;
     width: 100%;
     object-fit: cover;
 }
@@ -76,6 +75,46 @@ h1 {
     margin: 0;
 }
 /********** Fin card **********/
+
+
+/********** Début Animation **********/
+
+#caroussel {
+    overflow: hidden;
+}
+
+.images {
+    /* durée de l'animation */
+    animation-duration: 5s;
+
+    /* nommé l'animation */
+    animation-name: mesImages;
+
+    animation-iteration-count: infinite;
+}
+/* Définir les rêgles de l'animation */
+@keyframes mesImages {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-165px);
+    }
+    40% {
+        transform: translateY(-330px);
+    }
+    60% {
+        transform: translateY(-495px);
+    }
+    80% {
+        transform: translateY(-660px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+/********** Fin Animation **********/
 
 /********** début Média queries 540px **********/
 @media screen and (min-width: 540px) {
