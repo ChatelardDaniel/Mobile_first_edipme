@@ -7,6 +7,7 @@
 
 /********** Début section accueil **********/
 .section__card {
+    height: 230px;
     display: grid;
     grid-template-columns: 5fr 1fr;
     background-image: url(/img/ciel-bleu-01.jpg);
@@ -98,16 +99,16 @@ h1 {
         transform: translateY(0);
     }
     20% {
-        transform: translateY(-165px);
+        transform: translateY(-46.5px);
     }
     40% {
-        transform: translateY(-330px);
+        transform: translateY(-93px);
     }
     60% {
-        transform: translateY(-495px);
+        transform: translateY(-139.5px);
     }
     80% {
-        transform: translateY(-660px);
+        transform: translateY(-186px);
     }
     100% {
         transform: translateY(0);
@@ -119,6 +120,10 @@ h1 {
 /********** début Média queries 540px **********/
 @media screen and (min-width: 540px) {
 
+    .section__card {
+            height: 600px;
+            /* 616px ordi*/
+    }
     /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
     .cards {
         display: flex;
