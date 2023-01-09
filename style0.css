@@ -113,15 +113,14 @@ h1 {
     100% {
         transform: translateY(0);
     }
-    
 }
 /********** Fin Animation **********/
 
-/********** début Média queries 540px **********/
-@media screen and (min-width: 540px) {
+/********** début Média queries 415px **********/
+@media screen and (min-width: 415px) {
 
     .section__card {
-            height: 600px;
+            height: 545px;
             /* 616px ordi*/
     }
     /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
@@ -131,5 +130,78 @@ h1 {
         /*justify-content: alignement horizontale */
         flex-wrap: wrap;
     }
+
+        /* Définir les rêgles de l'animation */
+        @keyframes mesImages {
+            0% {
+                transform: translateY(0);
+            }
+    
+            20% {
+                transform: translateY(-109px);
+            }
+    
+            40% {
+                transform: translateY(-218px);
+            }
+    
+            60% {
+                transform: translateY(-327px);
+            }
+    
+            80% {
+                transform: translateY(-436px);
+            }
+    
+            100% {
+                transform: translateY(0);
+            }
+        }
 }
-/********** Fin Média queries 540px **********/
+
+/********** Fin Média queries 415px **********/
+
+
+/********** début Média queries 1240px **********/
+@media screen and (min-width: 1240px) {
+
+    .section__card {
+            height: 810px;
+            /* 616px ordi*/
+    }
+    /* display: flex; sur l'éléments parent permet aux éléments enfant d'être alignés sur une ligne. */
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        /*justify-content: alignement horizontale */
+        flex-wrap: wrap;
+    }
+        /* Définir les rêgles de l'animation */
+        @keyframes mesImages {
+            0% {
+                transform: translateY(0);
+            }
+    
+            20% {
+                transform: translateY(-163px);
+            }
+    
+            40% {
+                transform: translateY(-326px);
+            }
+    
+            60% {
+                transform: translateY(-489px);
+            }
+    
+            80% {
+                transform: translateY(-652px);
+            }
+    
+            100% {
+                transform: translateY(0);
+            }
+        }
+}
+
+/********** Fin Média queries 1240px **********/
