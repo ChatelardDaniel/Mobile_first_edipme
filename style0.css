@@ -92,6 +92,8 @@ h1 {
     animation-name: mesImages;
 
     animation-iteration-count: infinite;
+
+    animation-direction: alternate;
 }
 /* Définir les rêgles de l'animation */
 @keyframes mesImages {
