@@ -93,28 +93,20 @@ h1 {
 
     animation-iteration-count: infinite;
 
-    animation-direction: alternate;
 }
 /* Définir les rêgles de l'animation */
 @keyframes mesImages {
-    0% {
-        transform: translateY(0);
-    }
-    20% {
-        transform: translateY(-46.5px);
-    }
-    40% {
-        transform: translateY(-93px);
-    }
-    60% {
-        transform: translateY(-139.5px);
-    }
-    80% {
-        transform: translateY(-186px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+        0% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(-500px);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
 }
 /********** Fin Animation **********/
 
@@ -138,23 +130,11 @@ h1 {
             0% {
                 transform: translateY(0);
             }
-    
-            20% {
-                transform: translateY(-109px);
+        
+            50% {
+                transform: translateY(-500px);
             }
-    
-            40% {
-                transform: translateY(-218px);
-            }
-    
-            60% {
-                transform: translateY(-327px);
-            }
-    
-            80% {
-                transform: translateY(-436px);
-            }
-    
+        
             100% {
                 transform: translateY(0);
             }
@@ -183,23 +163,9 @@ h1 {
             0% {
                 transform: translateY(0);
             }
-    
-            20% {
-                transform: translateY(-163px);
+            50% {
+                transform: translateY(-500px);
             }
-    
-            40% {
-                transform: translateY(-326px);
-            }
-    
-            60% {
-                transform: translateY(-489px);
-            }
-    
-            80% {
-                transform: translateY(-652px);
-            }
-    
             100% {
                 transform: translateY(0);
             }
